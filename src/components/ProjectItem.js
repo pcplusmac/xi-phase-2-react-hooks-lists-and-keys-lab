@@ -1,7 +1,7 @@
 import React from "react";
 
 function ProjectItem({ name, about, technologies }) {
-  const mappedTech = technologies.map(tech => {<span key={tech}>{tech}</span>})
+  const mappedTech = technologies.map(tech => (<span key={tech}>{tech}</span>))
   
   return (
     <div className="project-item">
